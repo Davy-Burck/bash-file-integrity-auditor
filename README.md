@@ -61,10 +61,9 @@ Le script s'articule autour de plusieurs blocs logiques clés :
    
 Utilisation
 
-./audit.sh /chemin/vers/le/dossier
+./audit.sh /home/jedha
 
-Exemple de sortie
-
+Exemple de sortie.
 Scan complete. Results:
 ------------------------
 Total files modified in last 7 days: 32
