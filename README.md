@@ -56,8 +56,7 @@ Le script s'articule autour de plusieurs blocs logiques clés :
    cd linux-security-audit-tool
 
     Rends le script exécutable :
-    Bash
-
+    
     chmod +x audit.sh
    
 Utilisation
