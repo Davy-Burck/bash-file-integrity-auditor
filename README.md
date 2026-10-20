@@ -45,7 +45,7 @@ Le script s'articule autour de plusieurs blocs logiques clés :
 
 ---
 
-## ⚙️ Prérequis
+##  Prérequis
 * Un système d'exploitation **Linux** (Ubuntu, Debian, Kali Linux, etc.).
 * Un interpréteur **Bash** fonctionnel.
 
@@ -54,3 +54,26 @@ Le script s'articule autour de plusieurs blocs logiques clés :
    ```bash
    git clone [https://github.com/Davy-Burck/linux-security-audit-tool.git](https://github.com/Davy-Burck/linux-security-audit-tool.git)
    cd linux-security-audit-tool
+
+    Rends le script exécutable :
+    Bash
+
+    chmod +x audit.sh
+   
+Utilisation
+
+./audit.sh /chemin/vers/le/dossier
+
+Exemple de sortie
+
+Scan complete. Results:
+------------------------
+Total files modified in last 7 days: 32
+World-writable files: 0
+Log saved to file_audit.log
+
+Auteur
+
+Davy-Burck
+
+Parcours professionnel exigeant en reconversion vers la cybersécurité.
